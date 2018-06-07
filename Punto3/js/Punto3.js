@@ -11,8 +11,8 @@ function Ajax() {
         return req;
     }
     var peteicion = ObtenerXHR();
-    var dni = document.getElementById("txtNro");
-    var temp = "../php/Punto2.php?dni="+dni.value;
+    var prodcuto = document.getElementById("txtProd");
+    var temp = "../php/Punto3.php?producto="+prodcuto.value;
     peteicion.open("GET", temp, true);
     peteicion.onreadystatechange = procesamiento;
     peteicion.send(null);

@@ -16,8 +16,8 @@ class BaseDeDatos {
             while ($registro = $resultado->fetch_object()) {
                 $contador ++;
                 $str .="Nombre del producto: ".$registro->nombre."<br>";
-                $str .="Precio: ".$registro->precio."<br>";
-                $str .="Stock: ".$registro->precio."<br>";
+                $str .="Precio: $".$registro->precio."<br>";
+                $str .="Stock: ".$registro->cantidad."<br>";
             }
             return $str;
         }else {
