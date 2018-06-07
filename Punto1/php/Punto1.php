@@ -1,7 +1,6 @@
 <?php
     switch ($_GET['pais']) {
-        echo"asd";
-        case 'arg':
+        case 'ar':
             echo "<select> <option value=\"cr\">Comodoro Rivadavia </option><option value\"bsas\">Buenos Aires</option><option value\"tw\">Trelew</option></select>";
             break;
         case 'fr':
